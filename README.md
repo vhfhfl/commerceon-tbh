@@ -1,6 +1,6 @@
 # URL
 ## PC
-- https://tbh-markup-front-pc.vercel.app
+- https://commerceon-tbh-pc.vercel.app/markup/PageSitemap
 
 ## Mobile
-- https://tbh-markup-front-mobile.vercel.app
+- https://commerceon-tbh-mobile.vercel.app/markup/PageSitemap
