@@ -1,0 +1,7 @@
+/*
+ * 버튼가이드에서 벗어나는 버튼들은 아래에 추가
+ */
+.Btn_1{ @apply px-[0.25em] text-[#161616] text-[12px] font-[400] h-[24px] border-solid border-[1px] border-[#d4d4d4]; }
+.Btn_2{ @apply text-[#161616] text-[16px] font-[400] h-[48px]; }
+.Btn_3{ @apply text-[#161616] text-[16px] font-[600] h-[48px]; }
+.Btn_4{ @apply px-[0.25em] text-white text-[18px] font-[600] h-[70px] bg-[#161616]; }

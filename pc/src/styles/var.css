@@ -1,0 +1,100 @@
+:root{
+  /**/
+  --color1:#161616;
+  --color2:#6688FF;
+  --color3:#D4D4D4;
+  --color4:#FF0D0D;
+  --color5:#888888;
+  --color6:#ECECEC;
+  --color7:#F5F5F5;
+  --color8:#2C3A94;
+  --color9:#5E25D8;
+  --color10:#00E1C6;
+  --color11:#7E71AB;
+  --color12:#D9D9D9;
+  --color13:#F20042;
+  --color14:#DAAC53;
+  --color15:#2B2B2B;
+  /* iOS 11.0 버전 */
+  --sat:constant(safe-area-inset-top);
+  --sar:constant(safe-area-inset-right);
+  --sab:constant(safe-area-inset-bottom);
+  --sal:constant(safe-area-inset-left);
+  /* iOS 11.2 이상 */
+  --sat:env(safe-area-inset-top);
+  --sar:env(safe-area-inset-right);
+  --sab:env(safe-area-inset-bottom, 20px);
+  --sal:env(safe-area-inset-left);
+  /**/
+  --body-min-width:1536px; /* 웹사이트 최소 너비 */
+  --contents-max-width:1920px; /* 컨텐츠 최대 너비 */
+  /* 컨텐츠 좌우 양쪽 여백 */
+  --contents-side-padding:60px;
+  /*--contents-side-padding-sm:16px;*/
+  /*--contents-side-padding-md:24px;*/
+  /*--contents-side-padding-lg:32px;*/
+  /*--contents-side-padding-xl:40px;*/
+  /**/
+  --fixed-header-hei:90px;
+  --header-line-banner-hei:48px;
+  --header-logo-bar-hei:60px;
+  --gnb-hei:80px;
+  --header-logo-bar2-hei:62px;
+  --header-logo-bar3-hei:46px;
+  --header-line-banner2-hei:36px;
+  --header-line-banner3-hei:34px;
+  --login-bar-height:40px;
+  --gnb3-hei:42px;
+  --tabui-bar-height:50px;
+  --foot-menu-bar-height:50px;
+  --foot-menu-bar-shell-height:calc(50px + var(--sab));
+  /**/
+  --form-border-color:#d4d4d4;
+  --form-active-color:#0D6EFD;
+  --form-border-radius:4px;
+  /**/
+  --form-height:55px;
+  --form-height-sm:44px;
+  --form-height-lg:calc(var(--form-height) + 10px);
+  /**/
+  --form-font-size:14px;
+  --form-font-size-sm:12px;
+  --form-font-size-lg:calc(var(--form-font-size) + 10px);
+}
+:root {
+  --form-border-color: #d4d4d4;
+  --form-hei-xl: 58px;
+  --form-hei-lg: 48px;
+  --form-hei-md: 36px;
+  --form-hei-sm: 28px;
+  --form-hei-xs: 12px;
+}
+[data-only-view]{ display:none; }
+/* 639px 이하 화면*/
+@media screen and (max-width:639px){
+  [data-only-view~="xs"]{ display:block; }
+}
+/* 640px 이상 ~ 767px 이하 화면*/
+@media screen and (min-width:640px) and (max-width:767px){
+  [data-only-view~="sm"]{ display:block; }
+}
+/* 768px 이상 ~ 1023px 이하 화면*/
+@media screen and (min-width:768px) and (max-width:1023px){
+  [data-only-view~="md"]{ display:block; }
+}
+/* 1024px 이상 ~ 1279px 이하 화면*/
+@media screen and (min-width:1024px) and (max-width:1279px){
+  [data-only-view~="lg"]{ display:block; }
+}
+/* 1280px 이상 ~ 1535px 이하 화면*/
+@media screen and (min-width:1280px) and (max-width:1535px){
+  [data-only-view~="xl"]{ display:block; }
+}
+/* 1536px 이상 ~ 1799px 이하 화면*/
+@media screen and (min-width:1280px) and (max-width:1799px){
+  [data-only-view~="2xl"]{ display:block; }
+}
+/* 1800px 이상 화면*/
+@media screen and (min-width:1800px){
+  [data-only-view~="3xl"]{ display:block; }
+}
