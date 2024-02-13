@@ -10,11 +10,9 @@
 npm run dev
 ```
 
-## 💡 Stage Server-PC
-- https://commerceon-tbh-pc-dltjdms-projects.vercel.app/markup/PageSitemap
-
-## 💡 Stage Server-Mobile
-- https://commerceon-tbh-mobile-dltjdms-projects.vercel.app/markup/PageSitemap
+## 💡 Stage Server
+- PC : https://commerceon-tbh-pc-dltjdms-projects.vercel.app/markup/PageSitemap
+- MO : https://commerceon-tbh-mobile-dltjdms-projects.vercel.app/markup/PageSitemap
 
 ## 💡 Real Server
 - https://dev.tbhshop.co.kr/
