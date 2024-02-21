@@ -15,4 +15,4 @@ npm run dev
 - MO : https://commerceon-tbh-mobile-dltjdms-projects.vercel.app/markup/PageSitemap
 
 ## 💡 Real Server
-- https://dev.tbhshop.co.kr/
+- https://www.tbhshop.co.kr/
